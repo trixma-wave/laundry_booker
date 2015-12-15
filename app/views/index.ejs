@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laundry Booking">
+    <meta name="author" content="Laundry Booking">
+    <!--  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <title><%= title %></title>
+    
+    <!-- Static CSS -->
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="lib/fontawesome/css/font-awesome.min.css" >
+
+    <!-- Static JS -->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .marginbot-0 {
+            margin-bottom: 0 !important;
+        }
+
+        .marginbot-10 {
+            margin-bottom: 10px !important;
+        }
+
+        .marginbot-20 {
+            margin-bottom: 20px !important;
+        }
+
+        .marginbot-30 {
+            margin-bottom: 30px !important;
+        }
+
+        .marginbot-40 {
+            margin-bottom: 40px !important;
+        }
+
+        .marginbot-50 {
+            margin-bottom: 50px !important;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <!-- Render AngularJS views  -->
+        <div data-ui-view=""></div>
+    </div>
+
+    <!-- Load local libraries -->
+    <script type="text/javascript" src="/lib/angular/angular.js"></script>
+    <!-- Angular UI-Router -->
+    <script type="text/javascript" src="/lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- Angular UI-Bootstrap-->
+    <script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <!-- Angular Resource-->
+    <script type="text/javascript" src="/lib/angular-resource/angular-resource.js"></script>
+
+    <!-- Load the home module -->
+    <script type="text/javascript" src="/home/home.client.module.js"></script>
+    <script type="text/javascript" src="/home/controllers/home.client.controller.js"></script>
+    <script type="text/javascript" src="/home/services/home.client.service.js"></script>
+    <script type="text/javascript" src="/home/config/home.client.routes.js"></script>
+
+    <!-- Bootstrap AngularJS application -->
+    <script type="text/javascript" src="/application.js"></script>
+
+</body>
+</html>

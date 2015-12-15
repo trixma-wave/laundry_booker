@@ -1,0 +1,13 @@
+{
+  "name": "LaundryBooking",
+  "version": "0.0.8",
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-bootstrap": "~0.14.1",
+    "angular-resource": "~1.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,22 @@
+<div data-ng-controller="HomeController">
+    <div class="container">
+        <div class="marginbot-50"></div>
+        <div class="marginbot-50"></div>
+        <div class="marginbot-50"></div>
+        <div class="row">
+            <form class="col-md-offset-1 col-md-10 form-inline">
+            <div class="alert">{{output}}</div>
+            <div class="marginbot-50"></div>
+                <div class="form-group">
+                    <label for="name">URL</label>
+                    <input data-ng-model="url" type="text" class="form-control" id="name" placeholder="http:www.google.com">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input data-ng-model="email" type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
+                </div>
+                <button data-ng-click="book()" type="submit" class="btn btn-default">Send Booking</button>
+            </form>
+        </div>
+    </div>
+</div>
