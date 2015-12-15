@@ -12,7 +12,7 @@ angular.module('home').controller('HomeController', ['$scope', '$stateParams', '
             });
 
             booking.$save(function(response) {
-                $scope.output = response;
+                $scope.output = JSON.parse(response);
             }, function(errorResponse) {
                 $scope.output = errorResponse;
             });
